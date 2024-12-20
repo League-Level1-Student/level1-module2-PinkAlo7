@@ -23,15 +23,15 @@ public class TeaPartyTest {
 	}
 
 	@Test
-	public void testIsManKWeird() {
+	public void testIsManWeird() {
 		TeaParty teaParty = new TeaParty();
-		assertEquals("Hello weird Sir Isaac Newton", teaParty.welcome("Isaac Newton", false, true));
+		assertEquals("Hello weird Mr. Isaac Newton", teaParty.welcome("Isaac Newton", false, true));
 	}
 	
 	@Test
 	public void testIsWomanWeird() {
 		TeaParty teaParty = new TeaParty();
-		assertEquals("Hello weird Lady Laura", teaParty.welcome("Laura", true, true));
+		assertEquals("Hello weird Ms. Laura", teaParty.welcome("Laura", true, true));
 	}
 
 }
